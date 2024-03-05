@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Presentation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css(0)/all.css">
+</head>
+<body>
+    <div class="bg_img">
+        <div class="backdrop"></div>
+        <img src="" alt="" id="abstractImg">
+    </div>
+   <div class="carousel">
+    <div class="carousel__slides">
+        <img src="mountain.jpg" alt="">
+    </div>
+    <div class="carousel__slides">
+        <img src="camera.jpg" alt="">
+    </div>
+    <div class="carousel__slides">
+        <img src="tree.jpg" alt="">
+    </div>
+    <div class="carousel__btn next" onclick="plusSlides(1)"> <i class="fas fa-angle-right"></i> </div>
+    <div class="carousel__btn prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i> </div>
+ 
+    <div class="carousel_indicators-cont">
+    <span class="carousel_indicator" onclick="currentSlide(1)"></span>
+    <span class="carousel_indicator" onclick="currentSlide(2)"></span>
+    <span class="carousel_indicator" onclick="currentSlide(3)"></span>
+    </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
