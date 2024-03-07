@@ -70,3 +70,24 @@ function showSlides(n) {
 // function calc(x){
 //    return console.log(x)
 // }
+// prompt("what is your name")
+
+
+// function user(){
+//   let msg = prompt("what is your name")
+//   console.log(`Welcome ${msg}`)
+// }
+// user();
+let x;
+for(x = 0; x < 10; x++){
+  console.log(x)
+}
+let y = 0;
+ while(y < 10){
+  console.log(y)
+  y++
+ }
+ do{
+  console.log(y)
+  y++
+ }while(y < 10)
